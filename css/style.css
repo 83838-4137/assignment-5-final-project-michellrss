@@ -1,2 +1,22 @@
 @font-face { font-family: ‘Mofista’; font-style: regular;  src: url(“Mofista.otf”) format(“opentype”)}
 
+@font-face { font-family: 'Mulish'; src: url("Mulish.ttc")format ("opentype")}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+
+
+/* NAV BAR */
+
+header {
+    position: sticky;
+}
