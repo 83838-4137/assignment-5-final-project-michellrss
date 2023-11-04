@@ -1,22 +1,110 @@
 @font-face { font-family: ‘Mofista’; font-style: regular;  src: url(“Mofista.otf”) format(“opentype”)}
 
-@font-face { font-family: 'Mulish'; src: url("Mulish.ttc")format ("opentype")}
-
-
 html {
     box-sizing: border-box;
 }
 
-*before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    color: #000;
+}
 
+.header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    /* max-width: 100%;
+    min-height: 100px; */
+}
 
+#insightlogo{
+    width: 24rem;
+    height: 12.25rem;
+    border: 1px solid white;
+    object-fit: cover;
+}
 
+main {
+    margin: 0;
+}
 
+.nav-links {
+  margin: 0;
+  max-width: max-content;
+}
+
+.flex-container {
+    flex-direction: row;
+    display: flex;
+    max-width: 100%
+}
+
+.homeVideo{
+    width: 100%;
+    height: 26.3125rem;
+    object-fit: cover;
+}
+
+.collectionsGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0px;
+}
+
+.left-grid-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.right-grid-1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px solid blue;
+}
+
+.left-grid-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 1px solid orange;
+}
+
+.right-grid-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px solid purple;
+}
+
+.left-grid-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 1px solid gray;
+}
+
+.right-grid-3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px solid green;
+}
+
+.leftcontainerimages{
+    width: 100%;
+    height: 31.625rem;
+    object-fit: cover;
+}
+
+.rightcontainerimages{
+    width: 100%;
+    height: 31.625rem;
+    object-fit: cover;
+    /* float: right; */
+}
 /* NAV BAR */
-
-header {
-    position: sticky;
-}

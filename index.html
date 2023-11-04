@@ -3,65 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <title>Home Page</title>
 </head>
 <body>
-    <header> 
+    <header class="header"> 
         <nav class="nav-links">
             <div class="flex-container">
-                <div class="logo"> <h1 class="logo"> <a href="#"> <img src="images/insightlogo.png" alt="insight logo"></a></h1>
-                    <ul class="flex-list">
-                        <li class="flex-item"><a href="chatlive.html"> <img src="images/chatliveicon.svg" alt="chat live icon"> </a></li>
-                        <li class="flex-item"><a href="yourcart.html"> <img src="images/shoppingbagicon.svg" alt="chat live icon"></a></li>
-                        <li class="flex-item"><a href="youraccount.html"> <img src="images/profileicon.svg" alt="proile icon"></a></li>
-                    </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
-            
+                <div class="logo"> 
+                    <h1 class="logo"> 
+                        <a href="#"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
+                    </h1>
+                </div> <!-- CLOSING TAG FOR LOGO   -->  
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="chatlive.html"> <img src="images/chatliveicon.svg" alt="chat live icon"> </a></li>
+                            <li><a href="yourcart.html"> <img src="images/shoppingbagicon.svg" alt="chat live icon"></a></li>
+                            <li><a href="youraccount.html"> <img src="images/profileicon.svg" alt="proile icon"></a></li>
+                        </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
+                    </nav>  
                     <div class="hamburgermenu">
-                        <img src="images/hamburgermenuicon.svg" alt="hamburger menu">
+                        <div class="bars"></div>
+                        <div class="bars"></div>
+                        <div class="bars"></div>
                     </div> <!-- CLOSING TAG FOR HAMBURGER MENU -->
-
-                </div> <!-- CLOSING TAG FOR LOGO   -->    
             </div> <!-- CLOSING TAG (DIV CLASS FLEX CONTAINER) -->
         </nav> <!-- CLOSING TAG FOR NAV CLASS ON LINKS (NAV-LINKS) -->
     </header>
 
-<main> 
-    <section class="santiagoreyesvideo"> VIDEO 1
-        <video autoplay loop muted poster="images/santiagoreyesvideo.mp4" class="fullscreen"> 
-            <source src="images/santiagoreyesvideo.mp4" type="video/mp4">
-        </video>
+    <main> 
+        <section class="videohomepage"> <!-- VIDEO 1 -->
+            <video autoplay loop muted poster="images/santiagoreyesvideo.mp4" class="homeVideo"> 
+                <source src="images/santiagoreyesvideo.mp4" type="video/mp4">
+            </video>
+        </section> <!-- CLOSING TAG FOR SECTION CLASS ON SANTIAGO REYES VIDEO -->
 
-    <h1>INSIGHT</h1> <!-- HEADING -->
+        <h1>INSIGHT</h1> <!-- HEADING 1 -->
+        <p class="subheading1"> <!-- SUBHEAD 1 -->
+            SANTIAGO REYES
+        </p>
 
-    <p class="subheading1"> <!-- SUBHEAD -->
-        SANTIAGO REYES
-    </p>
-    
-    <p class="bodycopy"> 
-        Santiago Reyes is a remarkable individual who embodies the American dream. Born in 1975 in the town of Guanajuato, Mexico, he immigrated to the United States at the age of 10, eventually making Houston, Texas, his hometown. A proud alumnus of the University of Texas, where he majored in business management, Santiago's entrepreneurial spirit and vision were truly ignited after a life-altering diagnosis of stage 3 lung cancer at the age of 38. During a two-year journey of recovery, Santiago found the inspiration to start his luxury watch company, Insight, which has since become a symbol of his tenacity and creativity.    
-    </p>
+        <p class="bodycopy"> 
+            Santiago Reyes is a remarkable individual who embodies the American dream. Born in 1975 in the town of Guanajuato, Mexico, he immigrated to the United States at the age of 10, eventually making Houston, Texas, his hometown. A proud alumnus of the University of Texas, where he majored in business management, Santiago's entrepreneurial spirit and vision were truly ignited after a life-altering diagnosis of stage 3 lung cancer at the age of 38. During a two-year journey of recovery, Santiago found the inspiration to start his luxury watch company, Insight, which has since become a symbol of his tenacity and creativity.    
+        </p>
 
-    <section class="homepagewatch">
-        <video autoplay loop muted poster="images/homepagewatch.mp4" class="fullscreen"> 
-            <source src="images/homepagewatch.mp4" type="video/mp4">
-        </video>
+        <section class="videohomepage">  <!-- VIDEO 2 -->
+            <video autoplay loop muted poster="images/homepagewatch.mp4" class="homeVideo"> 
+                <source src="images/homepagewatch.mp4" type="video/mp4">
+            </video>
+        </section> <!--  CLOSING TAG FOR SECTION CLASS ON WATCH VIDEO -->
 
-    <h2>TIMELESS INNOVATION </h2> 
+        <h2>TIMELESS INNOVATION </h2>  <!-- HEADING 2 -->
 
-    <p class="subheading2"> <!-- SUBHEAD -->
-        TIMELESS INNOVATION
-    </p>
+        <p class="subheading2"> <!-- SUBHEAD 2-->
+            TIMELESS INNOVATION
+        </p>
 
-    <p class="bodycopy"> 
-        Introducing the 1st collection by Insights called "Eteréo", which is a testament to the indomitable spirit of Santiago Reyes. Born from Santiago's profound journey through illness and spirituality, Eteréo encapsulates the timeless essence of celestial harmony and personal transformation. This remarkable collection consists of six exquisite timepieces, each a masterpiece in its own right. The signature feature of these watches is their celestial intricacy, showcasing both astrological signs and the mesmerizing dance of moon phases. Santiago's resilience and newfound wisdom inspire every detail of this collection, making Eteréo an embodiment of hope, elegance, and the enduring connection between the universe and the human spirit.
-    </p>
+        <p class="bodycopy"> 
+            Introducing the 1st collection by Insights called "Eteréo", which is a testament to the indomitable spirit of Santiago Reyes. Born from Santiago's profound journey through illness and spirituality, Eteréo encapsulates the timeless essence of celestial harmony and personal transformation. This remarkable collection consists of six exquisite timepieces, each a masterpiece in its own right. The signature feature of these watches is their celestial intricacy, showcasing both astrological signs and the mesmerizing dance of moon phases. Santiago's resilience and newfound wisdom inspire every detail of this collection, making Eteréo an embodiment of hope, elegance, and the enduring connection between the universe and the human spirit.
+        </p>
+
+        <button class="discoverNow" type="discover now button"> Discover Now</button>
+
+        <div class="collectionsGrid">
+            <div class="left-grid-1">
+                <img class="leftcontainerimages" src="images/weddingcoupleimage.jpg"> <!-- IMAGE 1 -->
+                <div class="textonvideo">
+                    <h3> REYES Y REINAS COLLECTION <!-- HEADING 3 -->
+                    </h3>
+                </div>
+            </div>
+            <div class="right-grid-1">
+                <button class="discoverNow" type="discover now button"> Discover Now
+                </button>
+            </div>
+
+            <div class="left-grid-2">
+                <button class="discoverNow" type="discover now button"> Discover Now
+                </button>
+            </div>
+            <div class="right-grid-2">
+                <img class="rightcontainerimages" src="images/rainwoman.jpg"> <!-- IMAGE 2 -->
+                <div class="textonvideo">
+                    <h3> LLUVIA COLLECTION <!-- HEADING 4 -->
+                    </h3>
+                </div>
+            </div>
 
 
+            <div class="left-grid-3">
+                <img class="leftcontainerimages" src="images/coupleinstreet.jpg"> <!-- IMAGE 3 -->
+                <div class="textonvideo">
+                    <h3> QUERENCIA COLLECTION<!-- HEADING 5 -->
+                    </h3>
+                </div>
+            </div>
+            <div class="right-grid-3">
+                <button class="discoverNow" type="discover now button"> Discover Now
+                </button>
+            </div>
+        </div>
 
+        <img src="images/customerservicelady.jpg" class="homeVideo">
+        <p class="bodycopy">
+            Our services include 24 hour chat service to meet your every desire and need. 
+        </p>
+        
+        <footer>
+            <section class="containerfooter">
 
+                    <div class="1stcolumnleft">
+                        <div class="footertext1stcolumn"> <!-- 1ST COLUMN LEFT -->
+                            <h4> 
+                                ABOUT US  <!-- HEADING 1 FOOTER -->
+                            </h4>
+                            <li> <a href="#"> History </a></li>  
+                            <li> <a href="#">The Founder </a></li>   
+                            <li> <a href="#"> Brand Ideals </a></li>
+                        </div>
+            
+                        <div class="footertext1stcolumn">
+                            <h4> 
+                                CUSTOMER SERVICE  <!-- HEADING 2 FOOTER -->
+                            </h4>
+                            <li> <a href="#"> Contact </a></li>
+                            <li> <a href="#"> Chat Live </a></li>
+                            <li> <a href="#"> Report an Issue </a></li>
+                            <li> <a href="#"> Find a Service Center</a></li>
+                            <li> <a href="#"> Watchmaking School</a></li>
+                            <li> <a href="#"> Careers</a></li>
+                            <li> <a href="#"> Watch Care & Services</a></li>
+                            <li> <a href="#"> Certifications</a></li>
+                            <li> <a href="#"> FAQ</a></li>
+                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                    </div> <!-- CLOSING TAG FOR 1ST COLUMN LEFT -->
 
-    </section>
+                    <div class="2ndcolumnmiddle"> <!-- 2ND COLUMN MIDDLE -->
+                        <div class="footertext2ndcolumn">
+                            <h4> 
+                                COLLECTIONS  <!-- HEADING 3 FOOTER -->
+                            </h4>
+                            <li> <a href="#"> Eteréo </a></li>  
+                            <li> <a href="#"> Reyes y Reinas </a></li>   
+                            <li> <a href="#"> Lluvia </a></li>
+                            <li> <a href="#"> Querencia </a></li>
+                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
 
-</main>
-</body>
+                        <div class="footertext2ndcolumn">
+                            <h4> 
+                                MY ACCOUNT  <!-- HEADING 4 FOOTER -->
+                            </h4>
+                            <li> <a href="#"> Sign Up </a></li>
+                            <li> <a href="#"> Log In </a></li>
+                            <li> <a href="#"> Past Purchases </a></li>
+                            <li> <a href="#"> Favorites </a></li>
+                            <li> <a href="#"> Language </a></li>
+                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                    </div> <!-- CLOSING TAG FOR 2ND COLUMN MIDDLE -->
+
+                    <div class="lastcolumnright"> <!-- LAST COLUMN RIGHT -->  
+                        <div class="footertext3rdcolumn">
+                            <h4> 
+                                LEGAL NOTICE  <!-- HEADING 4 FOOTER -->
+                            </h4>
+                            <li> <a href="#"> Terms of Use</a></li>
+                            <li> <a href="#"> Privacy Notice </a></li>   
+                            <li> <a href="#"> Cookies </a></li>
+                            <li> <a href="#"> Return Policy </a></li>
+                            <li> <a href="#"> Accessibility </a></li>
+                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+
+                        <div class="footertext3rdcolumn">
+                            <h4> 
+                                FOLLOW US <!-- HEADING 5 FOOTER -->
+                            </h4>
+                            <li class="footericon"> <a href="#">
+                                <img src="images/instragramicon.png">
+                            </a></li>
+                            <li class="footericon"> <a href="#"> 
+                                <img src="images/facebookicon.png">
+                            </a></li>
+                            <li class="footericon"> <a href="#"> 
+                                <img src="images/twittericon.png">
+                            </a></li>
+                            <li class="footericon"> <a href="#"> 
+                                <img src="images/linkedinicon.png">
+                            </a></li>
+                        </div> <!-- CLOSING TAG FOR FOOTER TEXT -->
+                    </div> <!-- CLOSING TAG FOR 3RD COLUMN LAST -->
+            </section> <!-- CLOSING TAG FOR SECTION CLASS ON FOOTER -->
+            </footer>
+        </main>
+    </body>
 </html>
