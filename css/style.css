@@ -17,7 +17,8 @@ main {
 /* TYPOGRAPHY AND STYLES */
 
 body {
-    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: Avenir;
     font-size: 1rem;
     color: #000;
 }
@@ -34,7 +35,8 @@ h1, h2 {
 }
 
 .subheading {
-    font-family: 'Outfit';
+    /* font-family: 'Outfit'; */
+    font-family: Avenir;
     line-height: normal;
     font-size: 2rem;
     color: #000;
@@ -45,7 +47,8 @@ h1, h2 {
 }
 
 .bodycopy {
-    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: Avenir;
     font-size: 1.25rem;
     color: #000;
     margin-left: 6rem;
@@ -56,6 +59,21 @@ h1, h2 {
     line-height: 187.523%;
 }
 
+.bodycopychatservice {
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: Avenir;
+    font-size: 1.25rem;
+    color: #000;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+
+h4 {
+    color: #FFD04B;
+}
+
 
 /* NAV BAR */
 
@@ -63,13 +81,15 @@ h1, h2 {
     background-color: #000;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
 }
 
 .logo {
-    padding-left: 45rem;
-    padding-top: 1rem;
-    align-items: center;
-    padding-right: 25rem;
+    width: 100%;
+    padding-left: 8rem;
+    padding-top: 2rem;
+    
 }
 
 #insightlogo{
@@ -83,31 +103,78 @@ h1, h2 {
     display: flex;
     list-style: none;
     column-gap: 30px;
-    position: absolute
+    padding-top: 5rem;
 }
+
 
 .material-symbols-rounded {
     color:#FFD04B;
     width: 2rem;
-    height: 2rem;
+    height: 4rem;
 
 }
 
 .hamburgermenu {
-    color: #FFD04B;
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 7rem;
+    padding-top: 2rem;
 }
 
 .bars {
     background-color:#FFD04B;
-    width: 26px;
+    width: 29px;
     height: 3px;
     margin: 5px  0;
+    border-radius: 1rem;
 }
+
+/* TYPE ON COLLECTION IMAGES */
+
+.reyesreinastext {
+    font-family: 'Mofista';
+    font-size: 4rem;
+    color: #5D0009;
+    position: absolute;
+    top: 70%;
+    margin-left: 2rem;
+    line-height: 3rem;
+}
+
+.lluviatext {
+    font-family: 'Mofista';
+    font-size: 4rem;
+    color: #5D0009;
+    position: absolute;
+    top: 70%;
+    margin-left: 20rem;
+    text-align: right;
+    line-height: 1.5rem;
+
+}
+
+#firstlinelluvia::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#secondlinecollection::before {
+    content: "\a";
+    white-space: pre;
+}
+
+#secondlinecollection {
+    font-size: 3rem;
+}
+
+.querenciatext {
+    font-family: 'Mofista';
+    font-size: 4rem;
+    color: #5D0009;
+    position: absolute;
+    top:70%;
+    margin-left: 2rem;
+    line-height: 3rem;
+}
+
+
 
 
 /* VIDEOS AND IMAGES */
@@ -119,47 +186,8 @@ h1, h2 {
     object-fit: cover;
 }
 
-.collectionsGrid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 0px;
-}
-
-.left-grid-1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border: 1px solid red;
-    width: 100%;
-}
-
-.right-grid-1{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    border: 1px solid blue;
-}
-
-.left-grid-2{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border: 1px solid orange;
-}
-
-.right-grid-2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    border: 1px solid purple;
-}
-
-.left-grid-3{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border: 1px solid gray;
-}
-
-.right-grid-3{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    border: 1px solid green;
+.gradientcontainer {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 41.33%, rgba(0, 0, 0, 0.00) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .leftcontainerimages{
@@ -174,8 +202,50 @@ h1, h2 {
     object-fit: cover;
 }
 
+.customerservicephoto {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+
+/* COLLECTION BOXES */
+
+.collectionsGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0px;
+    padding-bottom: 8rem;
+}
+
+.left-grid-1{ 
+    border: 1px solid red;
+    width: 100%;
+    position: relative;
+}
+
+.right-grid-1{
+    border: 1px solid blue;
+    position: relative;
+}
+
+.left-grid-2{
+    border: 1px solid orange;
+    position: relative;
+}
+
+
+
+
+
+
 
 /* BUTTONS */
+
+.buttoncontainer {
+    align-content: center;
+    padding-bottom: 9rem;
+}
 
 .discoverNow {
     border: 1px solid #000;
@@ -195,11 +265,6 @@ h1, h2 {
     transition-duration: 0.4s;
 }
 
-.buttoncontainer {
-    align-content: center;
-    padding-bottom: 9rem;
-}
-
 .discoverNow:hover {
     background-color: #5D0009;
     color: #fff;
@@ -209,6 +274,7 @@ h1, h2 {
     border: 7px solid #5D0009;
     filter: blur(2px);
 }
+
 
 .discoverNow2 {
     border: 1px solid #000;
@@ -228,4 +294,118 @@ h1, h2 {
     background-color: #5D0009;
     color: #fff;
 
+}
+
+.right-button-1 {
+    padding-left: 18rem;
+    padding-top: 15rem;
+}
+
+.left-button-1 {
+    padding-left: 12rem;
+    padding-top: 15rem;
+}
+
+.buttoncontainerletschat {
+    padding-bottom: 5rem;
+}
+
+
+.letsChatbutton {
+    border: 1px solid #000;
+    padding-top: 0.81rem;
+    padding-bottom: 0.81rem;
+    width: 21.25rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    margin-right: 45rem;
+    margin-left: 45rem;
+}
+
+.letsChatbutton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+
+
+/* FOOTER */ 
+
+.containerfooter {
+    background-color: #000;
+}
+
+.fullcontainerlinks {
+    display: inline-flex;
+    margin-left: 26rem;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color:#fff;
+    font-family: Avenir;
+    
+}
+
+.footerlinks:hover {
+    color: #FFD04B;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.firstcolumnleft {
+    flex-direction: column;
+    line-height: 2rem;
+    margin: 5rem;
+}
+
+.footertext1stcolumn {
+    padding-bottom: 1rem;
+}
+
+
+.secondcolumnmiddle {
+    flex-direction: column;
+    line-height: 2rem;
+    margin: 5rem;
+}
+
+.footertext2ndcolumn {
+    padding-bottom: 1rem;
+}
+
+.lastcolumnright {
+    flex-direction: column;
+    line-height: 2rem;
+    margin: 5rem;
+
+}
+
+.footertext3rdcolumn {
+    padding-bottom: 1rem;
+}
+
+.footericon {
+    display: flex;
+    column-gap: 10px;
+    width: 2;
+    height: 2;
+}
+
+.allrightsreserved {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-bottom: 2rem;
 }

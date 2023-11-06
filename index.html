@@ -16,27 +16,26 @@
 </head>
 <body>
     <header class="header"> 
-                    <h1 class="logo"> 
-                        <a href="#"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
-                    </h1>
-                </div> <!-- CLOSING TAG FOR LOGO   -->  
-                    <nav class="nav">
-                        <ul>
-                            <li><a href="chatlive.html"> <span class="material-symbols-rounded">forum </span>
-                            </a></li>
-                            <li><a href="yourcart.html"> <span class="material-symbols-rounded"> shopping_bag </span>
-                            </a></li
-                            <li><a href="youraccount.html"> <span class="material-symbols-rounded"> person </span> 
-                            </a></li>
-                        </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
-                    </nav>  
-                    <div class="hamburgermenu">
-                        <div class="bars"></div>
-                        <div class="bars"></div>
-                        <div class="bars"></div>
-                    </div> <!-- CLOSING TAG FOR HAMBURGER MENU -->
-            </div> <!-- CLOSING TAG (DIV CLASS FLEX CONTAINER) -->
-        </nav> <!-- CLOSING TAG FOR NAV CLASS ON LINKS (NAV-LINKS) -->
+        <div class="hamburgermenu">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+        </div> <!-- CLOSING TAG FOR HAMBURGER MENU -->
+
+         <h1 class="logo"> 
+             <a href="#"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
+         </h1> 
+
+        <nav class="nav">
+            <ul>
+                <li><a href="chatlive.html"> <span class="material-symbols-rounded">forum </span>
+                </a></li>
+                <li><a href="yourcart.html"> <span class="material-symbols-rounded"> shopping_bag </span>
+                </a></li>
+                <li><a href="youraccount.html"> <span class="material-symbols-rounded"> person </span> 
+                </a></li>
+            </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
+        </nav>  
     </header>
 
     <main> 
@@ -78,129 +77,155 @@
         <div class="collectionsGrid">
             <div class="left-grid-1">
                 <img class="leftcontainerimages" src="images/weddingcoupleimage.jpg"> <!-- IMAGE 1 -->
-                <div class="textonvideo">
-                    <h3> REYES Y REINAS COLLECTION <!-- HEADING 3 -->
+                <div class="reyesreinastext">
+                    <h3> <span id="firstlinereyes">REYES Y REINAS </span> 
+                        <span id="secondlinecollection"><span style="font-family: Outfit;">COLLECTION </span></span><!-- HEADING 3 -->
                     </h3>
                 </div>
+            </div>
+            <div class="right-button-1">
+                <button class="discoverNow2" type="discover now button"> DISCOVER NOW
+                </button>
+            </div>
+
+            <div class="left-button-1">
+                <button class="discoverNow2" type="discover now button"> DISCOVER NOW
+                </button>
             </div>
             <div class="right-grid-1">
-                <button class="discoverNow2" type="discover now button"> DISCOVER NOW
-                </button>
+                <img class="rightcontainerimages" src="images/rainwoman.jpg"> <!-- IMAGE 2 -->
+                <div class="lluviatext">
+                    <h3> <span id="firstlinelluvia">LLUVIA </span> 
+                        <span id="secondlinecollection"> <span style="font-family: Outfit;">COLLECTION</span></span> <!-- HEADING 4 -->
+                    </h3>
+                </div>
             </div>
+
 
             <div class="left-grid-2">
-                <button class="discoverNow2" type="discover now button"> DISCOVER NOW
-                </button>
-            </div>
-            <div class="right-grid-2">
-                <img class="rightcontainerimages" src="images/rainwoman.jpg"> <!-- IMAGE 2 -->
-                <div class="textonvideo">
-                    <h3> LLUVIA COLLECTION <!-- HEADING 4 -->
-                    </h3>
-                </div>
-            </div>
-
-
-            <div class="left-grid-3">
                 <img class="leftcontainerimages" src="images/coupleinstreet.jpg"> <!-- IMAGE 3 -->
-                <div class="textonvideo">
-                    <h3> QUERENCIA COLLECTION<!-- HEADING 5 -->
+                <div class="querenciatext">
+                    <h3> <span id="firstlinequerencia"> QUERENCIA </span> 
+                        <span id="secondlinecollection"> <span style="font-family: Outfit;"> COLLECTION </span></span><!-- HEADING 5 -->
                     </h3>
                 </div>
             </div>
-            <div class="right-grid-3">
+            <div class="right-button-1">
                 <button class="discoverNow2" type="discover now button"> DISCOVER NOW
                 </button>
             </div>
         </div>
 
-        <img src="images/customerservicelady.jpg" class="homeVideo">
-        <p class="bodycopy">
-            Our services include 24 hour chat service to meet your every desire and need. 
+        <img src="images/customerservicelady.jpg" class="customerservicephoto">
+        <p class="bodycopychatservice">
+            Our services include  <span style="color:#FF0505">24 hour </span> chat service to meet your every desire and need. 
         </p>
+
+        <div class="buttoncontainerletschat">
+            <button class="letsChatbutton" type="lets chat"> LET'S CHAT! </button>
+            </div>
+
+
         
         <footer>
             <section class="containerfooter">
+                <div class="fullcontainerlinks">
+                            <div class="firstcolumnleft">
+                                <div class="footertext1stcolumn"> <!-- 1ST COLUMN LEFT -->
+                                    <h4> 
+                                        ABOUT US  <!-- HEADING 1 FOOTER -->
+                                    </h4>
+                                    <ul>
+                                        <li> <a class="footerlinks" href="#"> History </a></li>  
+                                        <li> <a class="footerlinks" href="#">The Founder </a></li>   
+                                        <li> <a class="footerlinks" href="#"> Brand Ideals </a></li>
+                                    </ul>
+                                </div>
+                    
+                                <div class="footertext1stcolumn">
+                                    <h4> 
+                                        CUSTOMER SERVICE  <!-- HEADING 2 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Contact </a></li>
+                                    <li> <a class="footerlinks" href="#"> Chat Live </a></li>
+                                    <li> <a class="footerlinks" href="#"> Report an Issue </a></li>
+                                    <li> <a class="footerlinks" href="#"> Find a Service Center</a></li>
+                                    <li> <a class="footerlinks" href="#"> Watchmaking School</a></li>
+                                    <li> <a class="footerlinks" href="#"> Careers</a></li>
+                                    <li> <a class="footerlinks" href="#"> Watch Care & Services</a></li>
+                                    <li> <a class="footerlinks" href="#"> Certifications</a></li>
+                                    <li> <a class="footerlinks" href="#"> FAQ</a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                            </div> <!-- CLOSING TAG FOR 1ST COLUMN LEFT -->
 
-                    <div class="1stcolumnleft">
-                        <div class="footertext1stcolumn"> <!-- 1ST COLUMN LEFT -->
-                            <h4> 
-                                ABOUT US  <!-- HEADING 1 FOOTER -->
-                            </h4>
-                            <li> <a href="#"> History </a></li>  
-                            <li> <a href="#">The Founder </a></li>   
-                            <li> <a href="#"> Brand Ideals </a></li>
-                        </div>
-            
-                        <div class="footertext1stcolumn">
-                            <h4> 
-                                CUSTOMER SERVICE  <!-- HEADING 2 FOOTER -->
-                            </h4>
-                            <li> <a href="#"> Contact </a></li>
-                            <li> <a href="#"> Chat Live </a></li>
-                            <li> <a href="#"> Report an Issue </a></li>
-                            <li> <a href="#"> Find a Service Center</a></li>
-                            <li> <a href="#"> Watchmaking School</a></li>
-                            <li> <a href="#"> Careers</a></li>
-                            <li> <a href="#"> Watch Care & Services</a></li>
-                            <li> <a href="#"> Certifications</a></li>
-                            <li> <a href="#"> FAQ</a></li>
-                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
-                    </div> <!-- CLOSING TAG FOR 1ST COLUMN LEFT -->
+                            <div class="secondcolumnmiddle"> <!-- 2ND COLUMN MIDDLE -->
+                                <div class="footertext2ndcolumn">
+                                    <h4> 
+                                        COLLECTIONS  <!-- HEADING 3 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Eteréo </a></li>  
+                                    <li> <a class="footerlinks" href="#"> Reyes y Reinas </a></li>   
+                                    <li> <a class="footerlinks" href="#"> Lluvia </a></li>
+                                    <li> <a class="footerlinks" href="#"> Querencia </a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
 
-                    <div class="2ndcolumnmiddle"> <!-- 2ND COLUMN MIDDLE -->
-                        <div class="footertext2ndcolumn">
-                            <h4> 
-                                COLLECTIONS  <!-- HEADING 3 FOOTER -->
-                            </h4>
-                            <li> <a href="#"> Eteréo </a></li>  
-                            <li> <a href="#"> Reyes y Reinas </a></li>   
-                            <li> <a href="#"> Lluvia </a></li>
-                            <li> <a href="#"> Querencia </a></li>
-                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                                <div class="footertext2ndcolumn">
+                                    <h4> 
+                                        MY ACCOUNT  <!-- HEADING 4 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Sign Up </a></li>
+                                    <li> <a class="footerlinks" href="#"> Log In </a></li>
+                                    <li> <a class="footerlinks" href="#"> Past Purchases </a></li>
+                                    <li> <a class="footerlinks" href="#"> Favorites </a></li>
+                                    <li> <a class="footerlinks" href="#"> Language </a></li>
+                                <ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                            </div> <!-- CLOSING TAG FOR 2ND COLUMN MIDDLE -->
 
-                        <div class="footertext2ndcolumn">
-                            <h4> 
-                                MY ACCOUNT  <!-- HEADING 4 FOOTER -->
-                            </h4>
-                            <li> <a href="#"> Sign Up </a></li>
-                            <li> <a href="#"> Log In </a></li>
-                            <li> <a href="#"> Past Purchases </a></li>
-                            <li> <a href="#"> Favorites </a></li>
-                            <li> <a href="#"> Language </a></li>
-                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
-                    </div> <!-- CLOSING TAG FOR 2ND COLUMN MIDDLE -->
+                            <div class="lastcolumnright"> <!-- LAST COLUMN RIGHT -->  
+                                <div class="footertext3rdcolumn">
+                                    <h4> 
+                                        LEGAL NOTICE  <!-- HEADING 4 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Terms of Use</a></li>
+                                    <li> <a class="footerlinks" href="#"> Privacy Notice </a></li>   
+                                    <li> <a class="footerlinks" href="#"> Cookies </a></li>
+                                    <li> <a class="footerlinks" href="#"> Return Policy </a></li>
+                                    <li> <a class="footerlinks" href="#"> Accessibility </a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
 
-                    <div class="lastcolumnright"> <!-- LAST COLUMN RIGHT -->  
-                        <div class="footertext3rdcolumn">
-                            <h4> 
-                                LEGAL NOTICE  <!-- HEADING 4 FOOTER -->
-                            </h4>
-                            <li> <a href="#"> Terms of Use</a></li>
-                            <li> <a href="#"> Privacy Notice </a></li>   
-                            <li> <a href="#"> Cookies </a></li>
-                            <li> <a href="#"> Return Policy </a></li>
-                            <li> <a href="#"> Accessibility </a></li>
-                        </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                                <div class="footertext3rdcolumn">
+                                    <h4> 
+                                        FOLLOW US <!-- HEADING 5 FOOTER -->
+                                    </h4>
+                                <ul class="footericon">
+                                    <li> <a class="footericon" href="#">
+                                        <img src="images/instragramicon.png">
+                                    </a></li>
+                                    <li> <a class="footericon" href="#"> 
+                                        <img src="images/facebookicon.png">
+                                    </a></li>
+                                    <li> <a class="footericon" href="#"> 
+                                        <img src="images/twittericon.png">
+                                    </a></li>
+                                    <li> <a class="footericon" href="#"> 
+                                        <img src="images/linkedinicon.png">
+                                    </a></li>
+                                </ul>
+                            </div>
 
-                        <div class="footertext3rdcolumn">
-                            <h4> 
-                                FOLLOW US <!-- HEADING 5 FOOTER -->
-                            </h4>
-                            <li class="footericon"> <a href="#">
-                                <img src="images/instragramicon.png">
-                            </a></li>
-                            <li class="footericon"> <a href="#"> 
-                                <img src="images/facebookicon.png">
-                            </a></li>
-                            <li class="footericon"> <a href="#"> 
-                                <img src="images/twittericon.png">
-                            </a></li>
-                            <li class="footericon"> <a href="#"> 
-                                <img src="images/linkedinicon.png">
-                            </a></li>
                         </div> <!-- CLOSING TAG FOR FOOTER TEXT -->
                     </div> <!-- CLOSING TAG FOR 3RD COLUMN LAST -->
+                    <p class="allrightsreserved">
+                        COPYRIGHT INSIGHT. ALL RIGHTS RESERVED.
+                    </p>
             </section> <!-- CLOSING TAG FOR SECTION CLASS ON FOOTER -->
             </footer>
         </main>
