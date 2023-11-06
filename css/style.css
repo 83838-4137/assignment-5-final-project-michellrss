@@ -144,7 +144,7 @@ h4 {
     color: #5D0009;
     position: absolute;
     top: 70%;
-    margin-left: 20rem;
+    margin-left: 35rem;
     text-align: right;
     line-height: 1.5rem;
 
@@ -186,26 +186,28 @@ h4 {
     object-fit: cover;
 }
 
-.gradientcontainer {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 41.33%, rgba(0, 0, 0, 0.00) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
 
-.leftcontainerimages{
+
+.leftcontainerimages {
     width: 100%;
     height: 31.625rem;
     object-fit: cover;
+    display: block;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 41.33%, rgba(0, 0, 0, 0.00) 100%), url(images/weddingcoupleimage.jpg), lightgray 50% / cover no-repeat;
 }
 
 .rightcontainerimages{
     width: 100%;
     height: 31.625rem;
     object-fit: cover;
+    display: block;
 }
 
 .customerservicephoto {
     width: 100%;
     height: 20rem;
     object-fit: cover;
+    display: block;
 }
 
 
@@ -219,18 +221,15 @@ h4 {
 }
 
 .left-grid-1{ 
-    border: 1px solid red;
     width: 100%;
     position: relative;
 }
 
 .right-grid-1{
-    border: 1px solid blue;
     position: relative;
 }
 
 .left-grid-2{
-    border: 1px solid orange;
     position: relative;
 }
 
