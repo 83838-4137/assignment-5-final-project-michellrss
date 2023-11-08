@@ -34,6 +34,17 @@ h1, h2 {
     padding-top: 5rem;
 }
 
+h3 {
+    font-family: Mofista;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 .subheading {
     /* font-family: 'Outfit'; */
     font-family: Avenir;
@@ -74,6 +85,21 @@ h4 {
     color: #FFD04B;
 }
 
+.nameonaccount {
+    font-family: Avenir;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.emailaddress {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 
 /* NAV BAR */
 
@@ -210,6 +236,12 @@ h4 {
     display: block;
 }
 
+.profilepicture {
+    width: 13.8125rem;
+    height: 13.8125rem;
+    display: grid;
+}
+
 
 /* COLLECTION BOXES */
 
@@ -235,8 +267,57 @@ h4 {
 
 
 
+/* CONTAINERS  */
 
 
+.firstsectionaccountcontainer {
+    display: flex;
+}
+
+.leftSide {
+    padding-top: 8rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns:  0.32fr 1.7fr;
+    column-gap: 33px;
+}
+
+.rightSide {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 12fr;
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+
+.profilepiccontainer {
+    display: block;
+    padding-left: 6rem;
+}
+
+.profilenameandemail {
+    display: block;
+    grid-template-columns: 50% 50%;
+}
+
+.rightsideiconsaccount {
+
+}
+
+.rightsideaccountinfo {
+    padding: 0;
+}
+
+.accountinfolistcontainer {
+
+}
+
+
+/* DECORATION */
+
+.verticalLine {
+    border-right: 4px solid black;
+}
 
 
 /* BUTTONS */
