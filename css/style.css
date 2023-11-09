@@ -101,6 +101,41 @@ h4 {
     line-height: normal;
 }
 
+.bodycopylist {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 300rem;
+    line-height: 187.523%;
+    text-decoration: none;
+}
+
+.listspacing {
+    margin-bottom: 14px;
+}
+
+.bodycopy2 {
+    line-height: 4rem;
+}
+
+span#boldorderinfo {
+    font-family: 'Avenir';
+    font-weight: 700;
+}
+
+span#italicorderinfo {
+    font-family: 'Avenir';
+    font-style: oblique;
+}
+
+.lineheighttogether {
+    line-height: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+
 /* NAV BAR */
 
 .header {
@@ -124,8 +159,7 @@ h4 {
     object-fit: cover;
 }
 
-.nav ul{
-    color: #FFD04B;
+.navicons{
     display: flex;
     list-style: none;
     column-gap: 30px;
@@ -243,6 +277,8 @@ h4 {
 }
 
 
+
+
 /* COLLECTION BOXES */
 
 .collectionsGrid{
@@ -272,10 +308,11 @@ h4 {
 
 .firstsectionaccountcontainer {
     display: flex;
+    padding-left: 16rem;
+    padding-right: 16rem;
 }
 
 .leftSide {
-    padding-top: 8rem;
     display: grid;
     align-items: center;
     grid-template-columns:  0.32fr 1.7fr;
@@ -285,14 +322,12 @@ h4 {
 .rightSide {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 12fr;
-    padding-top: 8rem;
-    padding-left: 6rem;
+    grid-template-columns: 2fr 8fr;
+    padding-left: 5rem;
 }
 
 .profilepiccontainer {
     display: block;
-    padding-left: 6rem;
 }
 
 .profilenameandemail {
@@ -300,16 +335,28 @@ h4 {
     grid-template-columns: 50% 50%;
 }
 
-.rightsideiconsaccount {
-
-}
-
 .rightsideaccountinfo {
-    padding: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
 }
 
-.accountinfolistcontainer {
+.secondsectionofaccount {
+    display: flex;
+    padding-left: 18rem;
+}
 
+.horizontalwatchcontainer{
+    display: flex;
+    border: 1px solid #000;
+    margin-left: 2rem;
+    
+}
+
+.rightsideorderinfo {
+    padding: 5rem;
 }
 
 
@@ -319,12 +366,28 @@ h4 {
     border-right: 4px solid black;
 }
 
+.material-symbols-rounded.black {
+    color:#000;
+}
+
+.accountIcon {
+    line-height: 5rem;
+}
+
+.horizontalLine {
+    border-bottom: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
 /* BUTTONS */
 
 .buttoncontainer {
     align-content: center;
     padding-bottom: 9rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 .discoverNow {
@@ -339,7 +402,7 @@ h4 {
     align-items: center;
     background-color: transparent;
     display: inline-block;
-    font-family: 'Outfit';
+    font-family: 'Avenir';
     font-weight: 700;
     font-size: 1rem;
     transition-duration: 0.4s;
@@ -364,7 +427,7 @@ h4 {
     align-items: center;
     background-color: transparent;
     display: inline-block;
-    font-family: 'Outfit';
+    font-family: 'Avenir';
     font-weight: 700;
     font-size: 1rem;
     transition-duration: 0.4s;
@@ -401,7 +464,7 @@ h4 {
     align-items: center;
     background-color: transparent;
     display: inline-block;
-    font-family: 'Outfit';
+    font-family: 'Avenir';
     font-weight: 700;
     font-size: 1rem;
     transition-duration: 0.4s;
@@ -414,6 +477,50 @@ h4 {
     color: #fff;
 }
 
+.buttoneditprofile {
+    padding-left: 61.5rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+
+}
+
+.editProfilebutton {
+    border: 1px solid #000;
+    width: 19rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.editProfilebutton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.viewOrder {
+    border: 1px solid #000;
+    width: 10rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.viewOrder:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
 
 
 /* FOOTER */ 
