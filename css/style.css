@@ -276,6 +276,20 @@ span#italicorderinfo {
     display: grid;
 }
 
+.leftsideimage {
+    object-fit: cover;
+    padding: 2rem;
+}
+
+.watchphotoorders {
+    object-fit: cover;
+}
+
+.watchphotofavorites {
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+}
 
 
 
@@ -345,7 +359,8 @@ span#italicorderinfo {
 
 .secondsectionofaccount {
     display: flex;
-    padding-left: 18rem;
+    padding-left: 13rem;
+    padding-bottom: 6rem;
 }
 
 .horizontalwatchcontainer{
@@ -356,7 +371,38 @@ span#italicorderinfo {
 }
 
 .rightsideorderinfo {
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.thirdsectionofaccount {
+    display: flex;
+    padding-left: 17rem;
+    padding-bottom: 6rem;
+}
+
+.columnlefticons {
+    width: 4rem;
+    padding: 8.4375rem 1.1875rem;
+}
+
+.watchfavoritecolumnleft {
+    display: flex;
+}
+
+.watchfavoritecolumnmiddle {
+    display: flex;
+}
+
+.watchfavoritecolumnmiddle2 {
+    display: flex;
+}
+
+.watchfavoritecolumnright {
+    display: flex;
+    padding-top: 9.5rem;
 }
 
 
@@ -380,6 +426,17 @@ span#italicorderinfo {
     margin-right: auto;
     width: 80%;
 }
+
+.material-symbols-rounded.red {
+    color:  #5D0009;
+}
+
+.iconsredtogether {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+
 
 /* BUTTONS */
 
