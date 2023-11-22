@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
     <title>Your Cart</title>
 </head>
+
 <body>
     <header class="header"> 
         <div class="hamburgermenu">
@@ -13,21 +16,151 @@
             <div class="bars"></div>
         </div> <!-- CLOSING TAG FOR HAMBURGER MENU -->
 
-     <h1 class="logo"> 
-         <a href="#"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
-    </h1> 
+         <h1 class="logo"> 
+             <a href="#"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
+         </h1> 
 
-    <nav class="nav">
-         <ul>
-            <li><a href="chatlive.html"> <span class="material-symbols-rounded">forum </span>
-            </a></li>
-            <li><a href="yourcart.html"> <span class="material-symbols-rounded"> shopping_bag </span>
-            </a></li>
-            <li><a href="youraccount.html"> <span class="material-symbols-rounded"> person </span> 
-            </a></li>
+        <nav class="nav">
+            <ul class="navicons">
+                <li><a href="chatlive.html"> <span class="material-symbols-rounded">forum </span>
+                </a></li>
+                <li><a href="yourcart.html"> <span class="material-symbols-rounded"> shopping_bag </span>
+                </a></li>
+                <li><a href="youraccount.html"> <span class="material-symbols-rounded"> person </span> 
+                </a></li>
             </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
         </nav>  
     </header>
+
+
+<main>
+        <section class="firstsectioncartcontainer">
+            <h3> YOUR CART </h3>
+                <div class="allcartsteps">
+                    <div class="cartstep">
+                        <p class="bodycopy6">
+                            1). CART
+                        </p>
+                    </div>
+                    <div class="cartstep">
+                        <p class="bodycopy6">
+                            2). CHECKOUT
+                        </p>
+                    </div>
+                    <div class="cartstep">
+                        <p class="bodycopy6">
+                            3). SHIPPING 
+                        </p>
+                    </div>
+                    <div class="cartstep">
+                        <p class="bodycopy6">
+                            4). CONFIRMATION
+                        </p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="secondsectioncartcontainer">
+                <div class="leftSidecart">
+                    <div class="photoOfwatchcontainer">
+                        <img src="images/valentínwatch.png" class="cartwatch">
+                    </div>
+                    <div class="cartwatchinfo">
+                        <p class="bodycopycart">
+                            <span class="bodycopycartbold">
+                                VALENTÍN
+                            </span>
+                        </p>
+                        <br>
+                        <p class="bodycopycart">
+                            <span class="bodycopycartmedium">
+                                Coal-Axial Master
+                                <br>
+                                Chronometer 41mm
+                                <br>
+                            </span>
+                        </p>
+                        <br>
+                        <p class="bodycopycart">
+                            <span class="bodycopycartitalic">
+                                Gold
+                                <br>
+                                Purple
+                                <br>
+                            </span>
+                        </p>
+                        <br>
+                        <p class="bodycopycart">
+                            <span class="bodycopycartmedium">
+                                $9,800.00
+                            </span>
+                        </p>
+                    </div>
+                </div> 
+
+            <div class="verticalLine"></div>
+            
+            <div class="rightSidecart">
+                    <h6>
+                        ORDER SUMMARY    
+                    </h6>
+
+                <div class="ordersummaryinfocontainer">
+                        <div class="textsummary">
+                                <ul class="summaryinfolist">
+                                    <li class="summaryinfotext"> 
+                                        <a class="textsummary" href="#">
+                                            SUBTOTAL (EXCL. TAX) 
+                                        </a>
+                                    </li>
+                                    <li class="summaryinfotext">
+                                        <a class="textsummary" href="#">
+                                            SHIPPING & HANDLING
+                                        </a>
+                                    </li>
+                                    <li class="summaryinfotext">
+                                        <a class="textsummary" href="#">
+                                            TAX 
+                                        </a>
+                                    </li>
+                                    <li class="summaryinfotext">
+                                        <a class="textsummary" href="#">
+                                            TOTAL 
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+
+                        <div class="pricesummary">
+                            <ul class="summarypricelist">
+                                <li class="summaryinfotext"> 
+                                    <a class="textsummary" href="#">
+                                        $9,800.00
+                                    </a>
+                                </li>
+                                <li class="summaryinfotext">
+                                    <a class="textsummary" href="#">
+                                        $0.00
+                                    </a>
+                                </li>
+                                <li class="summaryinfotext">
+                                    <a class="textsummary" href="#">
+                                        $686.00
+                                    </a>
+                                </li>
+                                <li class="summaryinfotext">
+                                    <a class="textsummary" href="#">
+                                        $10,486.00 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                </div>
+            </div>
+        </section>
+
+</main>
     
 </body>
 </html>
