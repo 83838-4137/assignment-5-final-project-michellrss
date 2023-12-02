@@ -40,9 +40,20 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    text-align: right;
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+.h3heading {
+    font-family: Mofista;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem; 
 }
 
 .subheading {
@@ -311,24 +322,15 @@ li.summaryinfotextlast {
 .drawer-nav { 
     position: fixed;
     z-index: 2;
-    top: 0;
+    margin-top: -9rem;
     overflow: hidden;
     width: 16.25rem;
     height: 100%;
     color: #222;
     background-color: #000;
+    line-height: 4rem;
 }
 
-/* .drawer-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 3.75rem;
-    display: block;
-    padding-right: .75rem;
-    padding-left: .75rem;
-    text-decoration: none;
-    color: #222;
-} */
 
 .drawer-menu {
     margin: 0;
@@ -339,16 +341,13 @@ li.summaryinfotextlast {
     top: 20px;
 }
 
-/* ul.drawer-menu-top {
-    top: 50px;
-    position: relative;
-} */
+ul.drawer-menu {
+    margin-left: 1rem;
+}
 
 .drawer-menu-item {
     font-size: 1rem;
     display: block;
-    padding: .75rem;
-    /* margin: 1rem; */
     text-decoration: none;
     color: #FFD04B;
     font-weight: 600;
@@ -454,7 +453,8 @@ li.summaryinfotextlast {
 
 .drawer-hamburger-icon,.drawer-hamburger-icon:after,.drawer-hamburger-icon:before {
     width: 100%;
-    height: 2px;
+    height: 3px;
+    border-radius: 3px;
     -webkit-transition: all .6s cubic-bezier(.19,1,.22,1);
     transition: all .6s cubic-bezier(.19,1,.22,1);
     background-color:#FFD04B;
@@ -560,6 +560,11 @@ li.summaryinfotextlast {
 .drawer-navbar .drawer-menu {
     padding-bottom: 7.5rem
 }
+
+ul.drawer-dropdown {
+    margin-left: 1rem;
+}
+
 .drawer-dropdown-menu {
     display: none;
     box-sizing: border-box;
@@ -590,6 +595,10 @@ li.summaryinfotextlast {
     color: #FFD04B;
     background-color: transparent
 }
+.drawer-dropdown-menu-item:focus {
+    outline: 7px solid #5D0009;
+}
+
 
 .drawer-dropdown.open>.drawer-dropdown-menu {
     display: block
@@ -631,7 +640,7 @@ li.summaryinfotextlast {
     font-size: 4rem;
     color: #5D0009;
     position: absolute;
-    top: 70%;
+    top: 50%;
     margin-left: 2rem;
     line-height: 3rem;
 }
@@ -641,7 +650,7 @@ li.summaryinfotextlast {
     font-size: 4rem;
     color: #5D0009;
     position: absolute;
-    top: 70%;
+    top: 50%;
     margin-left: 35rem;
     text-align: right;
     line-height: 1.5rem;
@@ -660,6 +669,8 @@ li.summaryinfotextlast {
 
 #secondlinecollection {
     font-size: 3rem;
+    display: flex;
+    text-align: left;
 }
 
 .querenciatext {
@@ -667,7 +678,7 @@ li.summaryinfotextlast {
     font-size: 4rem;
     color: #5D0009;
     position: absolute;
-    top:70%;
+    top: 50%;
     margin-left: 2rem;
     line-height: 3rem;
 }
@@ -1087,8 +1098,7 @@ span.headquartersbold {
 }
 
 .discoverNow:focus {
-    border: 7px solid #5D0009;
-    filter: blur(2px);
+    outline: 7px solid #5D0009;
 }
 
 
@@ -1110,6 +1120,10 @@ span.headquartersbold {
     background-color: #5D0009;
     color: #fff;
 
+}
+
+.discoverNow2:focus {
+    outline: 7px solid #5D0009;
 }
 
 .right-button-1 {
@@ -1150,9 +1164,17 @@ span.headquartersbold {
     color: #fff;
 }
 
+.letsChatbutton:focus {
+    outline: 7px solid #5D0009;
+}
+
 .buttoneditprofile {
     display: flex;
     padding-left: 5rem;
+}
+
+.buttoneditprofile:focus {
+    outline: 7px solid #5D0009;
 }
 
 .editProfilebutton {
@@ -1174,6 +1196,10 @@ span.headquartersbold {
     color: #fff;
 }
 
+.editProfilebutton:focus {
+    outline: 7px solid #5D0009;
+}
+
 .viewOrder {
     border: 1px solid #000;
     width: 10rem;
@@ -1191,6 +1217,10 @@ span.headquartersbold {
 .viewOrder:hover {
     background-color: #5D0009;
     color: #fff;
+}
+
+.viewOrder:focus {
+    outline: 7px solid #5D0009;
 }
 
 
@@ -1235,9 +1265,18 @@ span.headquartersbold {
     color: #fff;
 }
 
+.reyesbutton:focus {
+    outline: 7px solid #5D0009;
+}
+
+
 .reinasbutton:hover {
     background-color: #5D0009;
     color: #fff;
+}
+
+.reinasbutton:focus {
+    outline: 7px solid #5D0009;
 }
 
 .buttonscontainers {
@@ -1271,6 +1310,10 @@ span.headquartersbold {
     color: #fff;
 }
 
+.buttonscustomerservice:focus {
+    outline: 7px solid #5D0009;
+}
+
 .customerservicebuttons {
     border: 1px solid #000;
     width: 15rem;
@@ -1288,6 +1331,10 @@ span.headquartersbold {
 .customerservicebuttons:hover {
     background-color: #5D0009;
     color: #fff;
+}
+
+.customerservicebuttons:focus {
+    outline: 7px solid #5D0009;
 }
 
 .cartbuttoncontainer {
@@ -1315,12 +1362,15 @@ span.headquartersbold {
     color: #fff;
 }
 
+.yourcartButton:focus {
+    outline: 7px solid #5D0009;
+}
+
 .thirdsectioncartbutton {
     display: flex;
     justify-content: center;
     gap: 6rem;
 }
-
 
 
 /* FOOTER */ 
