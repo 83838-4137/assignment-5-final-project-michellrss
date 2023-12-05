@@ -595,10 +595,6 @@ ul.drawer-dropdown {
     color: #FFD04B;
     background-color: transparent
 }
-.drawer-dropdown-menu-item:focus {
-    outline: 7px solid #5D0009;
-}
-
 
 .drawer-dropdown.open>.drawer-dropdown-menu {
     display: block
@@ -1435,8 +1431,8 @@ ul {
 .footericon {
     display: flex;
     column-gap: 10px;
-    width: 2;
-    height: 2;
+    width: 2rem;
+    height: 2rem;
 }
 
 .allrightsreserved {
