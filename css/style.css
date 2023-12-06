@@ -1,0 +1,1446 @@
+@font-face { font-family: ‘Mofista’; font-style: regular;  src: url(“Mofista.otf”) format(“opentype”)}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+}
+
+/* TYPOGRAPHY AND STYLES */
+
+body {
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: Avenir;
+    font-size: 1rem;
+    color: #000;
+}
+
+h1, h2 {
+    color: #000;
+    font-family: Mofista;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+h3 {
+    font-family: Mofista;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.h3heading {
+    font-family: Mofista;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem; 
+}
+
+.subheading {
+    /* font-family: 'Outfit'; */
+    font-family: Avenir;
+    line-height: normal;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 2rem;
+
+}
+
+.bodycopy {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    color: #000;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-weight: 300rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    line-height: 187.523%;
+}
+
+.bodycopychatservice {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    color: #000;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+h4 {
+    color: #FFD04B;
+}
+
+.nameonaccount {
+    font-family: Avenir;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.emailaddress {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.bodycopylist {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 300rem;
+    line-height: 187.523%;
+    text-decoration: none;
+}
+
+.listspacing1 {
+    margin-bottom: 1.7rem;
+}
+
+.listspacing2 {
+    margin-bottom: 2rem;
+}
+
+.listspacing3 {
+    margin-bottom: 1.7rem;
+}
+
+.bodycopy2 {
+    line-height: 4rem;
+}
+
+span#boldorderinfo {
+    font-family: 'Avenir';
+    font-weight: 700;
+}
+
+span#italicorderinfo {
+    font-family: 'Avenir';
+    font-style: oblique;
+}
+
+.lineheighttogether {
+    line-height: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.bodycopy3 {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    color: #000;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-weight: 300rem;
+    padding-bottom: 5rem;
+    line-height: 187.523%;
+
+}
+
+span.boldcollectionsinfo {
+    font-weight: 900;
+}
+
+span.boldandunderlinecollectionsinfo {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+span.nameofwatchbold {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.textpriceandname {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+span.pricetextregular {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    font-family: Mofista;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.bodycopy5 {
+    font-family: Avenir;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 191.1%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bodycopy6 {
+    color: #000;
+    font-family: Avenir;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bodycopy6disabled {
+    color: #878787;
+    font-family: Avenir;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h6 {
+    font-family: Mofista;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+span.bodycopycartbold {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+span.bodycopycartmedium {
+    font-weight: 500;
+}
+
+span.bodycopycartitalic {
+    font-style: oblique;
+}
+
+ul.summaryinfolist {
+    list-style-type: none;
+}
+
+.textsummary {
+    text-decoration: none;
+    color:#000;
+    line-height: 2rem;
+    font-weight: 800;
+}
+
+.textsummarylight {
+    font-weight: 400;
+}
+
+.pricesummary {
+    line-height: 2rem;
+    text-align: right;
+    font-weight: 400;
+}
+
+li.summaryinfotextlast {
+    margin-top: 4rem;
+}
+
+
+
+/* NAV BAR */
+
+.header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.logo {
+    width: 100%;
+    padding-left: 8rem;
+    padding-top: 2rem;
+    
+}
+
+#insightlogo{
+    width: 24rem;
+    height: 12.25rem;
+    object-fit: cover;
+}
+
+.navicons{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    padding-top: 5rem;
+}
+
+
+.material-symbols-rounded {
+    color:#FFD04B;
+    width: 2rem;
+    height: 4rem;
+
+}
+
+
+/* START DRAWER OVERRIDE CSS */
+.drawer-open {
+    overflow: hidden!important;
+}
+
+.drawer-nav { 
+    position: fixed;
+    z-index: 2;
+    margin-top: -9rem;
+    overflow: hidden;
+    width: 16.25rem;
+    height: 100%;
+    color: #222;
+    background-color: #000;
+    line-height: 4rem;
+}
+
+
+.drawer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+}
+
+ul.drawer-menu {
+    margin-left: 1rem;
+}
+
+.drawer-menu-item {
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+    color: #FFD04B;
+    font-weight: 600;
+}
+
+.drawer-menu-item:hover {
+    text-decoration: underline;
+    color: #FFF;
+    background-color: transparent
+}
+
+.drawer-overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2)
+}
+
+.drawer-open .drawer-overlay {
+    display: block
+}
+
+.drawer--top .drawer-nav {
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    -webkit-transition: top .6s cubic-bezier(.19,1,.22,1);
+    transition: top .6s cubic-bezier(.19,1,.22,1)
+}
+
+.drawer--top.drawer-open .drawer-nav {
+    top: 0
+}
+
+.drawer--top .drawer-hamburger,.drawer--top.drawer-open .drawer-hamburger {
+    right: 0;
+}
+
+.drawer--left .drawer-nav {
+    left: -16.25rem;
+    -webkit-transition: left .6s cubic-bezier(.19,1,.22,1);
+    transition: left .6s cubic-bezier(.19,1,.22,1);
+}
+
+.drawer--left .drawer-hamburger,.drawer--left.drawer-open .drawer-nav,.drawer--left.drawer-open .drawer-navbar .drawer-hamburger {
+    left: 0
+}
+
+.drawer--left.drawer-open .drawer-hamburger {
+    left: 16.25rem
+}
+
+.drawer--right .drawer-nav {
+    right: -16.25rem;
+    -webkit-transition: right .6s cubic-bezier(.19,1,.22,1);
+    transition: right .6s cubic-bezier(.19,1,.22,1)
+}
+
+.drawer--right .drawer-hamburger,.drawer--right.drawer-open .drawer-nav,.drawer--right.drawer-open .drawer-navbar .drawer-hamburger {
+    right: 0
+}
+
+.drawer--right.drawer-open .drawer-hamburger {
+    right: 16.25rem
+}
+
+.drawer-hamburger {
+    position:absolute;
+    z-index: 8;
+    top: 0;
+    display: block;
+    box-sizing: content-box;
+    width: 2rem;
+    height: 15rem;
+    padding: 0;
+    padding: 18px .75rem 30px;
+    margin-left: 6.4rem;
+    -webkit-transition: all .6s cubic-bezier(.19,1,.22,1);
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    border: 0;
+    outline: 0;
+    background-color: transparent
+}
+
+.drawer-hamburger:hover {
+    cursor: pointer;
+    background-color: transparent
+}
+
+.drawer-hamburger-icon {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+.drawer-hamburger-icon,.drawer-hamburger-icon:after,.drawer-hamburger-icon:before {
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .6s cubic-bezier(.19,1,.22,1);
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+    background-color:#FFD04B;
+}
+
+.drawer-hamburger-icon:after,.drawer-hamburger-icon:before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: " "
+}
+
+.drawer-hamburger-icon:after {
+    top: 10px
+}
+
+.drawer-open .drawer-hamburger-icon {
+    background-color: transparent
+}
+
+.drawer-open .drawer-hamburger-icon:after,.drawer-open .drawer-hamburger-icon:before {
+    top: 0
+}
+
+.drawer-open .drawer-hamburger-icon:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.drawer-open .drawer-hamburger-icon:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.sr-only {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0
+}
+
+.sr-only-focusable:active,.sr-only-focusable:focus {
+    position: static;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto;
+    margin: 0
+}
+
+.drawer--sidebar,.drawer--sidebar .drawer-contents {
+    background-color: #fff
+}
+.drawer--navbarTopGutter {
+    padding-top: 3.75rem
+}
+
+.drawer-navbar .drawer-navbar-header {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.drawer-navbar {
+    z-index: 3;
+    top: 0;
+    width: 100%
+}
+
+.drawer-navbar--fixed {
+    position: fixed
+}
+
+.drawer-navbar-header {
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.75rem;
+    padding: 0 .75rem;
+    text-align: center
+}
+
+.drawer-navbar .drawer-brand {
+    line-height: 3.75rem;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+}
+
+.drawer-navbar .drawer-brand:hover {
+    background-color: transparent
+}
+
+.drawer-navbar .drawer-nav {
+    padding-top: 3.75rem
+}
+
+.drawer-navbar .drawer-menu {
+    padding-bottom: 7.5rem
+}
+
+ul.drawer-dropdown {
+    margin-left: 1rem;
+}
+
+.drawer-dropdown-menu {
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.drawer-dropdown-menu>li {
+    width: 100%;
+    list-style: none;
+}
+
+.drawer-dropdown-menu-item {
+    font-size: 0.9rem;
+    line-height: 3rem;
+    display: block;
+    padding: 0;
+    padding-right: .75rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.drawer-dropdown-menu-item:hover {
+    text-decoration: underline;
+    color: #FFD04B;
+    background-color: transparent
+}
+
+.drawer-dropdown.open>.drawer-dropdown-menu {
+    display: block
+}
+
+.drawer-dropdown .drawer-caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    -webkit-transition: opacity .2s ease,-webkit-transform .2s ease;
+    transition: opacity .2s ease,-webkit-transform .2s ease;
+    transition: transform .2s ease,opacity .2s ease;
+    transition: transform .2s ease,opacity .2s ease,-webkit-transform .2s ease;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+
+.drawer-dropdown.open .drawer-caret {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.drawer-container {
+    margin-right: auto;
+    margin-left: auto
+}
+/* END DRAWER OVERRIDE CSS */
+
+
+/* TYPE ON COLLECTION IMAGES */
+
+.reyesreinastext {
+    font-family: 'Mofista';
+    font-size: 4rem;
+    color: #5D0009;
+    position: absolute;
+    top: 50%;
+    margin-left: 2rem;
+    line-height: 3rem;
+}
+
+.lluviatext {
+    font-family: 'Mofista';
+    font-size: 4rem;
+    color: #5D0009;
+    position: absolute;
+    top: 50%;
+    margin-left: 35rem;
+    text-align: right;
+    line-height: 1.5rem;
+
+}
+
+#firstlinelluvia::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#secondlinecollection::before {
+    content: "\a";
+    white-space: pre;
+}
+
+#secondlinecollection {
+    font-size: 3rem;
+    display: flex;
+    text-align: left;
+}
+
+.querenciatext {
+    font-family: 'Mofista';
+    font-size: 4rem;
+    color: #5D0009;
+    position: absolute;
+    top: 50%;
+    margin-left: 2rem;
+    line-height: 3rem;
+}
+
+
+
+/* VIDEOS AND IMAGES */
+
+
+.homeVideo{
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.leftcontainerimages {
+    width: 100%;
+    height: 31.625rem;
+    object-fit: cover;
+    display: block;
+}
+
+.rightcontainerimages{
+    width: 100%;
+    height: 31.625rem;
+    object-fit: cover;
+    display: block;
+}
+
+.customerservicephoto {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    display: block;
+}
+
+.profilepicture {
+    width: 13.8125rem;
+    height: 13.8125rem;
+    display: grid;
+}
+
+.leftsideimage {
+    object-fit: cover;
+    padding: 2rem;
+}
+
+.watchphotoorders {
+    object-fit: cover;
+}
+
+.watchphotofavorites {
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+}
+
+.homeImage {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.leftcontainerimages2 {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    display: block;
+}
+
+.rightcontainerimages2 {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* COLLECTION BOXES */
+
+.collectionsGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0px;
+    padding-bottom: 8rem;
+}
+
+.left-grid-1{ 
+    width: 100%;
+    position: relative;
+}
+
+.right-grid-1{
+    position: relative;
+}
+
+
+.customerservicegridsection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0px;
+    padding-top: 8rem;
+}
+
+/* CUSTOMER SERVICE BOXES */
+
+.left-grid-2 {
+    position: relative;
+    height: 50rem;
+}
+
+.left-button-2 {
+    position: relative;
+    margin: auto;
+    padding: 6rem;
+}
+
+.right-grid-2 {
+    position: relative;
+    height: 50rem;
+}
+
+.right-button-2 {
+    position: relative;
+    margin: auto;
+    padding: 6rem;
+}
+
+
+/* CONTAINERS  */
+
+
+.firstsectionaccountcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+    width: 50%;
+    padding-left: 18rem;
+}
+
+.rightSide {
+    padding-left: 5rem;
+    width: 50%;
+}
+
+.iconsandinfo {
+    display: flex;
+    gap: 10%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.profilepiccontainer {
+    display: block;
+}
+
+.profilenameandemail {
+    display: block;
+    grid-template-columns: 50% 50%;
+}
+
+
+.secondsectionofaccount {
+    display: flex;
+    padding-left: 13rem;
+    padding-bottom: 6rem;
+}
+
+.horizontalwatchcontainer{
+    display: flex;
+    border: 1px solid #000;
+    margin-left: 2rem;
+    
+}
+
+.rightsideorderinfo {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.thirdsectionofaccount {
+    display: flex;
+    padding-left: 17rem;
+    padding-bottom: 6rem;
+}
+
+.columnlefticons {
+    width: 4rem;
+    padding: 8.4375rem 1.1875rem;
+}
+
+.watchfavoritecolumnleft {
+    display: flex;
+}
+
+.watchfavoritecolumnmiddle {
+    display: flex;
+}
+
+.watchfavoritecolumnmiddle2 {
+    display: flex;
+}
+
+.watchfavoritecolumnright {
+    display: flex;
+    padding-top: 9.5rem;
+}
+
+.firstsectioncollectioncontainer {
+    margin-bottom: 4rem;
+}
+
+.headerwithiconscollections {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 30rem;
+}
+
+.collectionsInfoWatches{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.leftinfo {
+    margin: 0 4.5%;
+}
+.rightinfo {
+    margin: 0 4.5%;
+}
+
+.secondsectioncollectioncontainer {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.watchcollectioncontainer {
+    display: flex;
+    place-content: center;
+    margin-bottom: 11rem;
+}
+
+.rightinfo{
+    position:absolute;
+    right: 0px;
+    display: flex;
+}
+
+.companyaddress {
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+    padding-bottom: 8rem;
+}
+
+.allcartsteps {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+.secondsectioncartcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1280px;
+    column-gap: 20px;
+    margin-top: 7rem;
+}
+
+.leftSidecart {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.1fr 1fr;
+    width: 50%
+}
+
+.rightSidecart {
+    width: 50%;
+}
+
+.ordersummaryinfocontainer {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.thirdsectioncartcontainer {
+    margin-bottom: 6rem;
+}
+
+
+/* DECORATION */
+
+.verticalLine {
+    border-right: 4px solid black;
+}
+
+.material-symbols-rounded.black {
+    color:#000;
+}
+
+.accountIcon {
+    line-height: 5rem;
+}
+
+.horizontalLine {
+    border-bottom: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.material-symbols-rounded.red {
+    color:  #5D0009;
+}
+
+.iconsredtogether {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+span.material-symbols-rounded.big {
+    color:#000;
+    font-size: 42px !important;
+}
+
+span.material-symbols-rounded.small {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.material-symbols-outlined{
+    height: 0;
+    color: black;
+}
+
+.notfilledicons:hover {
+    color: #5D0009;
+}
+
+
+.horizontalLinetwo {
+    border-bottom: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+}
+
+span.headquartersbold {
+    font-weight: 800;
+}
+
+.cartstep {
+    border-style: solid;
+    border-color: #000;
+    padding: 0.60rem;
+}
+
+.cartstepdisabled {
+    border-style: solid;
+    border-color: #9B9999;
+    padding: 0.60rem;
+    background: #D9D9D9;
+}
+
+.horizontalLinethree {
+    border-bottom: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+
+
+/* BUTTONS */
+
+.buttoncontainer {
+    padding-bottom: 9rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.discoverNow {
+    border: 1px solid #000;
+    padding-top: 0.81rem;
+    padding-bottom: 0.81rem;
+    width: 21.25rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.discoverNow:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.discoverNow:focus {
+    outline: 7px solid #5D0009;
+}
+
+
+.discoverNow2 {
+    border: 1px solid #000;
+    width: 21.25rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.discoverNow2:hover {
+    background-color: #5D0009;
+    color: #fff;
+
+}
+
+.discoverNow2:focus {
+    outline: 7px solid #5D0009;
+}
+
+.right-button-1 {
+    padding-left: 18rem;
+    padding-top: 15rem;
+}
+
+.left-button-1 {
+    padding-left: 12rem;
+    padding-top: 15rem;
+}
+
+.buttoncontainerletschat {
+    padding-bottom: 5rem;
+}
+
+
+.letsChatbutton {
+    border: 1px solid #000;
+    padding-top: 0.81rem;
+    padding-bottom: 0.81rem;
+    width: 21.25rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+    margin-right: 45rem;
+    margin-left: 45rem;
+}
+
+.letsChatbutton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.letsChatbutton:focus {
+    outline: 7px solid #5D0009;
+}
+
+.buttoneditprofile {
+    display: flex;
+    padding-left: 5rem;
+}
+
+.buttoneditprofile:focus {
+    outline: 7px solid #5D0009;
+}
+
+.editProfilebutton {
+    border: 1px solid #000;
+    width: 19rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.editProfilebutton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.editProfilebutton:focus {
+    outline: 7px solid #5D0009;
+}
+
+.viewOrder {
+    border: 1px solid #000;
+    width: 10rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.viewOrder:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.viewOrder:focus {
+    outline: 7px solid #5D0009;
+}
+
+
+.buttoncollections {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 8rem;
+}
+
+
+.reyesbutton {
+    border: 1px solid #000;
+    width: 21.25rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.reinasbutton {
+    border: 1px solid #000;
+    width: 21.25rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.reyesbutton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.reyesbutton:focus {
+    outline: 7px solid #5D0009;
+}
+
+
+.reinasbutton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.reinasbutton:focus {
+    outline: 7px solid #5D0009;
+}
+
+.buttonscontainers {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-bottom: 8rem;
+}
+
+.customerservicebuttonscontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonscustomerservice {
+    border: 1px solid #000;
+    width: 21.25rem;
+    height: 3.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.buttonscustomerservice:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.buttonscustomerservice:focus {
+    outline: 7px solid #5D0009;
+}
+
+.customerservicebuttons {
+    border: 1px solid #000;
+    width: 15rem;
+    height: 3.5rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.customerservicebuttons:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.customerservicebuttons:focus {
+    outline: 7px solid #5D0009;
+}
+
+.cartbuttoncontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.yourcartButton {
+    border: 1px solid #000;
+    width: 19rem;
+    height: 2.75rem;
+    fill: none;
+    align-items: center;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Avenir';
+    font-weight: 700;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.yourcartButton:hover {
+    background-color: #5D0009;
+    color: #fff;
+}
+
+.yourcartButton:focus {
+    outline: 7px solid #5D0009;
+}
+
+.thirdsectioncartbutton {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+
+/* FOOTER */ 
+
+.containerfooter {
+    background-color: #000;
+}
+
+.fullcontainerlinks {
+    display: inline-flex;
+    margin-left: 26rem;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color:#fff;
+    font-family: Avenir;
+    
+}
+
+.footerlinks:hover {
+    color: #FFD04B;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.firstcolumnleft {
+    flex-direction: column;
+    line-height: 2rem;
+    margin: 5rem;
+}
+
+.footertext1stcolumn {
+    padding-bottom: 1rem;
+}
+
+
+.secondcolumnmiddle {
+    flex-direction: column;
+    line-height: 2rem;
+    margin: 5rem;
+}
+
+.footertext2ndcolumn {
+    padding-bottom: 1rem;
+}
+
+.lastcolumnright {
+    flex-direction: column;
+    line-height: 2rem;
+    margin: 5rem;
+
+}
+
+.footertext3rdcolumn {
+    padding-bottom: 1rem;
+}
+
+.footericon {
+    display: flex;
+    column-gap: 10px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.allrightsreserved {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+     <!-- drawer.css -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+     <!-- drawer.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="header"> 
+
+         <h1 class="logo"> 
+             <a href="index.html"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
+         </h1> 
+
+        <nav class="nav">
+            <ul class="navicons">
+                <li><a href="chatlive.html"> <span class="material-symbols-rounded">forum </span>
+                </a></li>
+                <li><a href="yourcart.html"> <span class="material-symbols-rounded"> shopping_bag </span>
+                </a></li>
+                <li><a href="account.html"> <span class="material-symbols-rounded"> person </span> 
+                </a></li>
+            </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
+        </nav>  
+    </header>
+
+    <script src="js/script.js"></script>
+
+    <body class="drawer drawer--left">
+        <header role="banner">
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+            <nav class="drawer-nav" role="navigation">
+                <ul class="drawer-menu"> 
+                    <li></li>
+                            <li class="drawer-dropdown">
+                            <a class="drawer-menu-item" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                                COLLECTIONS <span class="drawer-caret"></span>
+                            </a>
+                            
+                          
+                            <ul class="drawer-dropdown-menu">
+                                <li><a class="drawer-dropdown-menu-item" href="#">ETERÉO</a></li>
+                                <li><a class="drawer-dropdown-menu-item" href="collections.html">REYES Y REINAS</a></li>
+                                <li><a class="drawer-dropdown-menu-item" href="#">LLUVIA</a></li>
+                                <li><a class="drawer-dropdown-menu-item" href="#">QUERENCIA</a></li>
+                            </li>
+                            </ul></ul>
+                            
+                            <ul class="drawer-dropdown">
+                            <li><a class="drawer-menu-item" href="customerservice.html">CUSTOMER SERVICE</a></li>
+                            <li><a class="drawer-menu-item" href="#">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+    <main> 
+        <section class="videohomepage"> <!-- VIDEO 1 -->
+            <video autoplay loop muted poster="images/santiagoreyesvideo.mp4" class="homeVideo"> 
+                <source src="images/santiagoreyesvideo.mp4" type="video/mp4">
+            </video>
+        </section> <!-- CLOSING TAG FOR SECTION CLASS ON SANTIAGO REYES VIDEO -->
+
+        <h1>INSIGHT</h1> <!-- HEADING 1 -->
+        <p class="subheading"> <!-- SUBHEAD 1 -->
+            SANTIAGO REYES
+        </p>
+
+        <p class="bodycopy"> 
+            Santiago Reyes is a remarkable individual who embodies the American dream. Born in 1975 in the town of Guanajuato, Mexico, he immigrated to the United States at the age of 10, eventually making Houston, Texas, his hometown. A proud alumnus of the University of Texas, where he majored in business management, Santiago's entrepreneurial spirit and vision were truly ignited after a life-altering diagnosis of stage 3 lung cancer at the age of 38. During a two-year journey of recovery, Santiago found the inspiration to start his luxury watch company, Insight, which has since become a symbol of his tenacity and creativity.    
+        </p>
+
+        <section class="videohomepage">  <!-- VIDEO 2 -->
+            <video autoplay loop muted poster="images/homepagewatch.mp4" class="homeVideo"> 
+                <source src="images/homepagewatch.mp4" type="video/mp4">
+            </video>
+        </section> <!--  CLOSING TAG FOR SECTION CLASS ON WATCH VIDEO -->
+
+        <h2>TIMELESS INNOVATION </h2>  <!-- HEADING 2 -->
+
+        <p class="subheading"> <!-- SUBHEAD 2-->
+            ETERÉO COLLECTION
+        </p>
+
+        <p class="bodycopy"> 
+            Introducing the 1st collection by Insight called "Eteréo", which is a testament to the indomitable spirit of Santiago Reyes. Born from Santiago's profound journey through illness and spirituality, Eteréo encapsulates the timeless essence of celestial harmony and personal transformation. This remarkable collection consists of six exquisite timepieces, each a masterpiece in its own right. The signature feature of these watches is their celestial intricacy, showcasing both astrological signs and the mesmerizing dance of moon phases. Santiago's resilience and newfound wisdom inspire every detail of this collection, making Eteréo an embodiment of hope, elegance, and the enduring connection between the universe and the human spirit.
+        </p>
+
+        <div class="buttoncontainer">
+        <button class="discoverNow" type="button"> DISCOVER NOW </button>
+        </div>
+
+        <div class="collectionsGrid">
+            <div class="left-grid-1">
+                <img class="leftcontainerimages" src="images/weddingcouple.jpg" alt="a couple getting married"> <!-- IMAGE 1 -->
+                <div class="reyesreinastext">
+                    <h3> <span id="firstlinereyes">REYES Y REINAS </span> 
+                        <span id="secondlinecollection"><span style="font-family: Outfit;">COLLECTION </span></span><!-- HEADING 3 -->
+                    </h3>
+                </div>
+            </div>
+            <div class="right-button-1">
+                <button class="discoverNow2" type="button"> DISCOVER NOW
+                </button>
+            </div>
+
+            <div class="left-button-1">
+                <button class="discoverNow2" type="button"> DISCOVER NOW
+                </button>
+            </div>
+            <div class="right-grid-1">
+                <img class="rightcontainerimages" src="images/rainwoman.jpg" alt="woman looking outside window with rain drops"> <!-- IMAGE 2 -->
+                <div class="lluviatext">
+                    <h3> <span id="firstlinelluvia">LLUVIA </span> 
+                        <span id="secondlinecollection"> <span style="font-family: Outfit;">COLLECTION</span></span> <!-- HEADING 4 -->
+                    </h3>
+                </div>
+            </div>
+
+
+            <div class="left-grid-1">
+                <img class="leftcontainerimages" src="images/coupleinstreet.jpg" alt="couple posing outside in a city"> <!-- IMAGE 3 -->
+                <div class="querenciatext">
+                    <h3> <span id="firstlinequerencia"> QUERENCIA </span> 
+                        <span id="secondlinecollection"> <span style="font-family: Outfit;"> COLLECTION </span></span><!-- HEADING 5 -->
+                    </h3>
+                </div>
+            </div>
+            <div class="right-button-1">
+                <button class="discoverNow2" type="button"> DISCOVER NOW
+                </button>
+            </div>
+        </div>
+
+        <img src="images/customerservicelady.jpg" class="customerservicephoto" alt="employee on the phone with customer">
+        <p class="bodycopychatservice">
+            Our services include  <span style="color:#FF0505">24 hour </span> chat service to meet your every desire and need. 
+        </p>
+
+        <div class="buttoncontainerletschat">
+            <button class="letsChatbutton" type="button"> LET'S CHAT! </button>
+            </div>
+
+
+        
+        <footer>
+            <section class="containerfooter">
+                <div class="fullcontainerlinks">
+                            <div class="firstcolumnleft">
+                                <div class="footertext1stcolumn"> <!-- 1ST COLUMN LEFT -->
+                                    <h4> 
+                                        ABOUT US  <!-- HEADING 1 FOOTER -->
+                                    </h4>
+                                    <ul>
+                                        <li> <a class="footerlinks" href="#"> History </a></li>  
+                                        <li> <a class="footerlinks" href="#">The Founder </a></li>   
+                                        <li> <a class="footerlinks" href="#"> Brand Ideals </a></li>
+                                    </ul>
+                                </div>
+                    
+                                <div class="footertext1stcolumn">
+                                    <h4> 
+                                        CUSTOMER SERVICE  <!-- HEADING 2 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Contact </a></li>
+                                    <li> <a class="footerlinks" href="#"> Chat Live </a></li>
+                                    <li> <a class="footerlinks" href="#"> Report an Issue </a></li>
+                                    <li> <a class="footerlinks" href="#"> Find a Service Center</a></li>
+                                    <li> <a class="footerlinks" href="#"> Watchmaking School</a></li>
+                                    <li> <a class="footerlinks" href="#"> Careers</a></li>
+                                    <li> <a class="footerlinks" href="#"> Watch Care & Services</a></li>
+                                    <li> <a class="footerlinks" href="#"> Certifications</a></li>
+                                    <li> <a class="footerlinks" href="#"> FAQ</a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                            </div> <!-- CLOSING TAG FOR 1ST COLUMN LEFT -->
+
+                            <div class="secondcolumnmiddle"> <!-- 2ND COLUMN MIDDLE -->
+                                <div class="footertext2ndcolumn">
+                                    <h4> 
+                                        COLLECTIONS  <!-- HEADING 3 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Eteréo </a></li>  
+                                    <li> <a class="footerlinks" href="collections.html"> Reyes y Reinas </a></li>   
+                                    <li> <a class="footerlinks" href="#"> Lluvia </a></li>
+                                    <li> <a class="footerlinks" href="#"> Querencia </a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+
+                                <div class="footertext2ndcolumn">
+                                    <h4> 
+                                        MY ACCOUNT  <!-- HEADING 4 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Sign Up </a></li>
+                                    <li> <a class="footerlinks" href="#"> Log In </a></li>
+                                    <li> <a class="footerlinks" href="#"> Past Purchases </a></li>
+                                    <li> <a class="footerlinks" href="#"> Favorites </a></li>
+                                    <li> <a class="footerlinks" href="#"> Language </a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                            </div> <!-- CLOSING TAG FOR 2ND COLUMN MIDDLE -->
+
+                            <div class="lastcolumnright"> <!-- LAST COLUMN RIGHT -->  
+                                <div class="footertext3rdcolumn">
+                                    <h4> 
+                                        LEGAL NOTICE  <!-- HEADING 4 FOOTER -->
+                                    </h4>
+                                <ul>
+                                    <li> <a class="footerlinks" href="#"> Terms of Use</a></li>
+                                    <li> <a class="footerlinks" href="#"> Privacy Notice </a></li>   
+                                    <li> <a class="footerlinks" href="#"> Cookies </a></li>
+                                    <li> <a class="footerlinks" href="#"> Return Policy </a></li>
+                                    <li> <a class="footerlinks" href="#"> Accessibility </a></li>
+                                </ul>
+                                </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+
+                                <div class="footertext3rdcolumn">
+                                    <h4> 
+                                        FOLLOW US <!-- HEADING 5 FOOTER -->
+                                    </h4>
+                                <ul class="footericon">
+                                    <li> <a class="footericon" href="#">
+                                        <img src="images/instragramicon.png" alt="instagram icon">
+                                    </a></li>
+                                    <li> <a class="footericon" href="#"> 
+                                        <img src="images/facebookicon.png" alt="facebook icon">
+                                    </a></li>
+                                    <li> <a class="footericon" href="#"> 
+                                        <img src="images/twittericon.png" alt="twitter icon">
+                                    </a></li>
+                                    <li> <a class="footericon" href="#"> 
+                                        <img src="images/linkedinicon.png" alt="linkedin icon">
+                                    </a></li>
+                                </ul>
+                            </div>
+
+                        </div> <!-- CLOSING TAG FOR FOOTER TEXT -->
+                    </div> <!-- CLOSING TAG FOR 3RD COLUMN LAST -->
+                    <footer class="allrightsreserved">
+                        COPYRIGHT INSIGHT. ALL RIGHTS RESERVED.
+                    </footer>
+            </section> <!-- CLOSING TAG FOR SECTION CLASS ON FOOTER -->
+            </footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <!-- drawer.css -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Your Account</title>
+</head>
+<body>
+    <header class="header"> 
+
+     <h1 class="logo"> 
+         <a href="index.html"><img src="images/insightlogo.png" id="insightlogo" alt="insight logo"></a>
+    </h1> 
+
+    <nav class="nav">
+         <ul class="navicons">
+            <li><a href="chatlive.html"> <span class="material-symbols-rounded">forum </span>
+            </a></li>
+            <li><a href="yourcart.html"> <span class="material-symbols-rounded"> shopping_bag </span>
+            </a></li>
+            <li><a href="account.html"> <span class="material-symbols-rounded"> person </span> 
+            </a></li>
+            </ul> <!-- CLOSING TAG FOR LIST ON NAV BAR  -->
+        </nav>  
+    </header>
+
+    <script src="js/script.js"></script>
+
+    <body class="drawer drawer--left">
+        <header role="banner">
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+            <nav class="drawer-nav" role="navigation">
+                <ul class="drawer-menu"> 
+                    <li></li>
+                            <li class="drawer-dropdown">
+                            <a class="drawer-menu-item" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                                COLLECTIONS <span class="drawer-caret"></span>
+                            </a>
+                            
+                          
+                            <ul class="drawer-dropdown-menu">
+                                <li><a class="drawer-dropdown-menu-item" href="#">ETERÉO</a></li>
+                                <li><a class="drawer-dropdown-menu-item" href="collections.html">REYES Y REINAS</a></li>
+                                <li><a class="drawer-dropdown-menu-item" href="#">LLUVIA</a></li>
+                                <li><a class="drawer-dropdown-menu-item" href="#">QUERENCIA</a></li>
+                            </li>
+                            </ul></ul>
+                            
+                            <ul class="drawer-dropdown">
+                            <li><a class="drawer-menu-item" href="customerservice.html">CUSTOMER SERVICE</a></li>
+                            <li><a class="drawer-menu-item" href="#">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main>
+
+        <p class="h3heading"> YOUR ACCOUNT </p>
+            <section class="firstsectionaccountcontainer">
+                    <div class="leftSide">
+                        <div class="profilepiccontainer">
+                            <img src="images/profilepic.jpg" class="profilepicture" alt="profile picture">
+                        </div>
+                         <div class="profilenameandemail">
+                            <p class="nameonaccount">
+                                Mrs. Isabella Perez
+                            </p>
+                            <p class="emailaddress">
+                                isabellaperez@gmail.com
+                            </p>
+                        </div>
+                    </div>  <!-- CLOSING TAG FOR LEFT SIDE DIV CLASS -->
+
+            <div class="verticalLine"></div>
+                
+                <div class="rightSide">
+                    <div class="iconsandinfo">
+                        <div class="rightsideiconsaccount">
+                            <ul class="iconaccountlist">
+                                <li> <a class="accountIcon" href="#"> 
+                                    <span class="material-symbols-rounded black"> home </span>
+                                </a></li>
+                                <li> <a class="accountIcon" href="#"> 
+                                    <span class="material-symbols-rounded black"> call</span>
+                                </a></li>
+                                <li> <a class="accountIcon" href="#">
+                                    <span class="material-symbols-rounded black"> credit_card </span>
+                                </a></li>
+                                <li> <a class="accountIcon" href="#"> 
+                                    <span class="material-symbols-rounded black"> g_translate </span>
+                                </a></li>
+                            </ul>
+                        </div>
+
+                    
+                        <div class="rightsideaccountinfo">
+                                <ul class="accountinfolist">
+                                    <li class="listspacing1"> <a class="bodycopylist" href="#">
+                                        1234 Villa Dr. <br> Miami, FL 3310<br> 
+                                    </a></li>
+                                    <li class="listspacing2"> <a class="bodycopylist" href="#">
+                                        954-987-4367
+                                    </a></li>
+                                    <li class="listspacing3"><a class="bodycopylist" href="#">
+                                        Capital One Master <br> Card Credit Card ending in ****6347 <br>
+                                    </a></li>
+                                    <li class="listspacing4"> <a class="bodycopylist" href="#">
+                                        English, Spanish
+                                    </a></li>
+                                </ul>
+                        </div>
+                    </div>
+
+                    <div class="buttoneditprofile">
+                        <button class="editProfilebutton" type="button"> 
+                            EDIT PROFILE 
+                        </button> 
+                    </div> <!-- ENDING TAG FOR RIGHT BUTTON 1  -->
+
+
+
+                </div> <!-- ENDING TAG FOR RIDE SIDE ACCOUNT INFO -->
+
+
+
+            </section>
+
+
+
+            <div class="horizontalLine"></div>
+
+            <p class="h3heading"> YOUR ORDERS </p>
+
+            <section class="secondsectionofaccount">
+               
+                <div class="horizontalwatchcontainer">
+                    <div class="leftsideimage">
+                        <img class="watchphotoorders" src="images/carinowatchsquare.png" alt="watch photo in your order">
+                    </div>
+                    <div class="rightsideorderinfo">
+                        <p class="bodycopy2">
+                           <span id="boldorderinfo"> 
+                            ORDER #US81728
+                            </span>
+                            <br>
+                           <span id="italicorderinfo"> 
+                            In-store Purchase 
+                           </span>
+                        </p>
+                        <p class="lineheighttogether">
+                           <span id="normalorderinfo">
+                            Purchased on 
+                            <br>
+                            May 20, 2023 
+                            </span>
+                        </p>
+                        <div class="buttoncontainerorder">
+                            <button class="viewOrder" type="button"> VIEW ORDER </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontalwatchcontainer">
+                    <div class="leftsideimage">
+                        <img class="watchphotoorders" src="images/felicidadwatchsquare.png" alt="watch photo in your order">
+                    </div>
+                    <div class="rightsideorderinfo">
+                        <p class="bodycopy2">
+                            <span id="boldorderinfo"> 
+                            ORDER #US81728
+                            </span>
+                            <br>
+                            <span id="italicorderinfo"> 
+                            In-store Purchase
+                            </span>
+                            </p>
+                            <p class="lineheighttogether">
+                                <span id="normalorderinfo">
+                                    Purchased on 
+                                    <br>
+                                    May 20, 2023
+                                </span>
+                            </p>
+                        <div class="buttoncontainerorder">
+                            <button class="viewOrder" type="button"> VIEW ORDER </button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="horizontalLine"></div>
+
+            <p class="h3heading"> YOUR FAVORITES </p>
+        
+            <section class="thirdsectionofaccount">
+                    <div class="watchfavoritecolumnleft">
+                        <div class="columnlefticons">
+                            <ul class="favoriteicons">
+                                <li class="iconsredtogether"> <a class="fillediconsred" href="#">
+                                    <span class="material-symbols-rounded red"> heart_minus </span>
+                                </a></li>
+                                <li class="iconsredtogether"> <a class="fillediconsred" href="#">
+                                    <span class="material-symbols-rounded red"> shopping_bag </span>
+                                </a></li>
+                            </ul>
+                        </div> 
+
+                        <div class="columnrightimage">
+                            <img class="watchphotofavorites" src="images/amorwatch.png" alt="watch favorite 1">    
+                        </div>
+                    </div>
+
+                    <div class="watchfavoritecolumnmiddle">
+                        <div class="columnlefticons">
+                            <ul class="favoriteicons">
+                                <li class="iconsredtogether"> <a class="fillediconsred" href="#">
+                                    <span class="material-symbols-rounded red"> heart_minus </span>
+                                </a></li>
+                                <li class="iconsredtogether"> <a class="fillediconsred" href="#">
+                                    <span class="material-symbols-rounded red"> shopping_bag </span>
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="columnrightimage">
+                            <img class="watchphotofavorites" src="images/valentinwatch.png" alt="watch favorite 2">
+                        </div>
+                    </div>
+
+                    <div class="watchfavoritecolumnmiddle2">
+                        <div class="columnlefticons">
+                            <ul class="favoriteicons">
+                                <li class="iconsredtogether"> <a class="fillediconsred" href="#">
+                                    <span class="material-symbols-rounded red"> heart_minus </span>
+                                </a></li>
+                                <li class="iconsredtogether"> <a class="fillediconsred" href="#">
+                                    <span class="material-symbols-rounded red"> shopping_bag </span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="columnrightimage">
+                            <img class="watchphotofavorites" src="images/sentimientowatch.png" alt="watch favorite 3">
+                        </div>   
+                    </div>
+
+                    <div class="watchfavoritecolumnright">
+                        <ul class="favoriteicons">
+                            <li class="iconsredtogether"> <a class="fillediconsred2" href="#">
+                                <span class="material-symbols-rounded red"> add_box</span>
+                            </a></li>
+                        </ul>
+                    </div>
+
+            </section>
+                
+
+         
+
+
+            <footer>
+                <section class="containerfooter">
+                    <div class="fullcontainerlinks">
+                                <div class="firstcolumnleft">
+                                    <div class="footertext1stcolumn"> <!-- 1ST COLUMN LEFT -->
+                                        <h4> 
+                                            ABOUT US  <!-- HEADING 1 FOOTER -->
+                                        </h4>
+                                        <ul>
+                                            <li> <a class="footerlinks" href="#"> History </a></li>  
+                                            <li> <a class="footerlinks" href="#">The Founder </a></li>   
+                                            <li> <a class="footerlinks" href="#"> Brand Ideals </a></li>
+                                        </ul>
+                                    </div>
+                        
+                                    <div class="footertext1stcolumn">
+                                        <h4> 
+                                            CUSTOMER SERVICE  <!-- HEADING 2 FOOTER -->
+                                        </h4>
+                                    <ul>
+                                        <li> <a class="footerlinks" href="#"> Contact </a></li>
+                                        <li> <a class="footerlinks" href="#"> Chat Live </a></li>
+                                        <li> <a class="footerlinks" href="#"> Report an Issue </a></li>
+                                        <li> <a class="footerlinks" href="#"> Find a Service Center</a></li>
+                                        <li> <a class="footerlinks" href="#"> Watchmaking School</a></li>
+                                        <li> <a class="footerlinks" href="#"> Careers</a></li>
+                                        <li> <a class="footerlinks" href="#"> Watch Care & Services</a></li>
+                                        <li> <a class="footerlinks" href="#"> Certifications</a></li>
+                                        <li> <a class="footerlinks" href="#"> FAQ</a></li>
+                                    </ul>
+                                    </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                                </div> <!-- CLOSING TAG FOR 1ST COLUMN LEFT -->
+    
+                                <div class="secondcolumnmiddle"> <!-- 2ND COLUMN MIDDLE -->
+                                    <div class="footertext2ndcolumn">
+                                        <h4> 
+                                            COLLECTIONS  <!-- HEADING 3 FOOTER -->
+                                        </h4>
+                                    <ul>
+                                        <li> <a class="footerlinks" href="#"> Eteréo </a></li>  
+                                        <li> <a class="footerlinks" href="collections.html"> Reyes y Reinas </a></li>   
+                                        <li> <a class="footerlinks" href="#"> Lluvia </a></li>
+                                        <li> <a class="footerlinks" href="#"> Querencia </a></li>
+                                    </ul>
+                                    </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+    
+                                    <div class="footertext2ndcolumn">
+                                        <h4> 
+                                            MY ACCOUNT  <!-- HEADING 4 FOOTER -->
+                                        </h4>
+                                    <ul>
+                                        <li> <a class="footerlinks" href="#"> Sign Up </a></li>
+                                        <li> <a class="footerlinks" href="#"> Log In </a></li>
+                                        <li> <a class="footerlinks" href="#"> Past Purchases </a></li>
+                                        <li> <a class="footerlinks" href="#"> Favorites </a></li>
+                                        <li> <a class="footerlinks" href="#"> Language </a></li>
+                                    </ul>
+                                    </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+                                </div> <!-- CLOSING TAG FOR 2ND COLUMN MIDDLE -->
+    
+                                <div class="lastcolumnright"> <!-- LAST COLUMN RIGHT -->  
+                                    <div class="footertext3rdcolumn">
+                                        <h4> 
+                                            LEGAL NOTICE  <!-- HEADING 4 FOOTER -->
+                                        </h4>
+                                    <ul>
+                                        <li> <a class="footerlinks" href="#"> Terms of Use</a></li>
+                                        <li> <a class="footerlinks" href="#"> Privacy Notice </a></li>   
+                                        <li> <a class="footerlinks" href="#"> Cookies </a></li>
+                                        <li> <a class="footerlinks" href="#"> Return Policy </a></li>
+                                        <li> <a class="footerlinks" href="#"> Accessibility </a></li>
+                                    </ul>
+                                    </div> <!-- CLOSING TAG FOR FOOTERTEXT -->
+    
+                                    <div class="footertext3rdcolumn">
+                                        <h4> 
+                                            FOLLOW US <!-- HEADING 5 FOOTER -->
+                                        </h4>
+                                    <ul class="footericon">
+                                        <li> <a class="footericon" href="#">
+                                            <img src="images/instragramicon.png" alt="instagram icon">
+                                        </a></li>
+                                        <li> <a class="footericon" href="#"> 
+                                            <img src="images/facebookicon.png" alt="facebook icon">
+                                        </a></li>
+                                        <li> <a class="footericon" href="#"> 
+                                            <img src="images/twittericon.png" alt="twitter icon">
+                                        </a></li>
+                                        <li> <a class="footericon" href="#"> 
+                                            <img src="images/linkedinicon.png" alt="linkedin icon">
+                                        </a></li>
+                                    </ul>
+                                </div>
+    
+                            </div> <!-- CLOSING TAG FOR FOOTER TEXT -->
+                        </div> <!-- CLOSING TAG FOR 3RD COLUMN LAST -->
+                        <footer class="allrightsreserved">
+                            COPYRIGHT INSIGHT. ALL RIGHTS RESERVED.
+                        </footer>
+                </section> <!-- CLOSING TAG FOR SECTION CLASS ON FOOTER -->
+                </footer>
+
+    </main>
+    
+</body>
+</html>
