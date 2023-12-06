@@ -1068,6 +1068,8 @@ span.headquartersbold {
 .buttoncontainer {
     padding-bottom: 9rem;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .discoverNow {
@@ -1076,8 +1078,6 @@ span.headquartersbold {
     padding-bottom: 0.81rem;
     width: 21.25rem;
     height: 2.75rem;
-    margin-right: 45rem;
-    margin-left: 45rem;
     fill: none;
     align-items: center;
     background-color: transparent;
